@@ -6,7 +6,7 @@ public class Egg6 {
 
     private Needle7 needle;
 
-    @Autowired
+//    @Autowired // требует @Component
     public Egg6(Needle7 needle) {
         this.needle = needle;
     }
