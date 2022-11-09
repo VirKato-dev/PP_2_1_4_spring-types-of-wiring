@@ -1,10 +1,12 @@
 package koschei.models;
 
-import org.springframework.beans.factory.annotation.Autowired;
-
+/***
+ * Bean egg6 определён в конфигурационном файле приложения
+ * Внедрение зависимости через конструктор
+ */
 public class Egg6 {
 
-    private Needle7 needle;
+    private final Needle7 needle;
 
 //    @Autowired // требует @Component
     public Egg6(Needle7 needle) {
